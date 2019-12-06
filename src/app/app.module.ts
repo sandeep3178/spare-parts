@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HomeModule} from './home/home.module'
-import {AdminModule} from './admin/admin.module'
+
 import {ModalModule} from 'ngx-bootstrap/modal'
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import {ModalModule} from 'ngx-bootstrap/modal'
     AppRoutingModule,
     BrowserAnimationsModule,
     HomeModule,
-    AdminModule,
+    
     ModalModule.forRoot()
   ],
   providers: [],
